@@ -58,8 +58,8 @@ Attack Scenario
 
 | Layer | Technology |
 |---|---|
-| Language | Java 17 |
-| Framework | Spring Boot 3.2.0 |
+| Language | Java 21 |
+| Framework | Spring Boot 3.5.12 |
 | Security | Spring Security |
 | Database | PostgreSQL |
 | ORM | Spring Data JPA |
@@ -111,7 +111,7 @@ src/main/java/com/example/auth/
 
 ### Prerequisites
 
-- Java 17+
+- Java 21+
 - PostgreSQL
 - Maven
 
