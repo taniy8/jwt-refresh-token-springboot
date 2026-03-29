@@ -1,6 +1,6 @@
-# JWT Refresh Token Authentication 
+# JWT Refresh Token Authentication
 
- Stateless JWT authentication with refresh token rotation, theft detection, and secure logout.
+> Stateless JWT authentication with refresh token rotation, theft detection, and secure logout.
 
 ---
 
@@ -150,11 +150,11 @@ jwt:
 mvn spring-boot:run
 ```
 
+### 6. Test the endpoints
+
 Application starts at `http://localhost:8080`
 
-### 6. Test with Postman
-
-Import the collection from `postman/jwt-auth.postman_collection.json` and run the requests in order.
+Use any HTTP client to test the endpoints listed in the API Reference above.
 
 ---
 
@@ -184,6 +184,12 @@ The tradeoff is not JWT versus Sessions.
 It is short-lived access token versus long-lived access token.
 
 Sessions are not bad. Stateless is not always good. The goal is minimising how often you hit a stateful store, not eliminating state entirely.
+
+---
+
+## Related
+
+- [LinkedIn post that inspired this repo](https://www.linkedin.com/feed/update/urn:li:activity:7442226328529084417/)
 
 ---
 
